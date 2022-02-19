@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 
-const COUNT_AMOUNT = 1;
+const COUNT_AMOUNT = 3;
 
 const reducer = (state, action) => {
   switch (action.type) {
